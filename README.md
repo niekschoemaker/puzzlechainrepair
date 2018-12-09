@@ -4,7 +4,7 @@
 
 ## Commands
 - `puzzlerepair` -- Repair all puzzle electrical chains within monuments server-wide
-- `debug.puzzleprefabrespawn` -- Overriden from Rust, does same as above
+- `debug.puzzleprefabrespawn` -- Overriden from Rust, does same as puzzlerepair
 
 ## Credits
 - Original author @bazuka5801
