@@ -66,7 +66,7 @@ namespace Oxide.Plugins
                         IOEntity ioEntity = keyValuePair.Value;
                         for (int index = 0; index < key.outputs.Length; ++index)
                         {
-                            if (!((UnityEngine.Object)key.outputs[index].connectedTo.Get(true) == (UnityEngine.Object)null))
+                            if (!((UnityEngine.Object)key.outputs[index].connectedTo.Get() == (UnityEngine.Object)null))
                             {
                                 ioEntity.outputs[index].connectedTo.ioEnt = dictionary[key.outputs[index].connectedTo.ioEnt];
                                 ioEntity.outputs[index].connectedToSlot = key.outputs[index].connectedToSlot;
