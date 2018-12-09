@@ -7,7 +7,7 @@ using Oxide.Core;
 
 namespace Oxide.Plugins
 {
-    [Info("PuzzleChainRepair", "bazuka5801/Misstake", "1.0.1")]
+    [Info("PuzzleChainRepair", "bazuka5801/Misstake", "1.0.2")]
     public class PuzzleChainRepair : RustPlugin
     {
         public void PuzzlePrefabRespawn(ConsoleSystem.Arg arg)
