@@ -1,6 +1,6 @@
 ## Features
 
-- Respawns all puzzles in the server without removing the puzzles/electrical chains made by players.
+Respawns and links all puzzles in the server without removing the puzzles/electrical chains made by players.
 
 ## Commands
 - `puzzlerepair` -- Repair all puzzle electrical chains within monuments server-wide
